@@ -11,6 +11,9 @@
 		E4DF1B112C4C07F20004E26C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF1B102C4C07F20004E26C /* ContentView.swift */; };
 		E4DF1B132C4C07FB0004E26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DF1B122C4C07FB0004E26C /* Assets.xcassets */; };
 		E4DF1B162C4C07FB0004E26C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DF1B152C4C07FB0004E26C /* Preview Assets.xcassets */; };
+		E4DF1B1D2C4C09330004E26C /* carvana.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E4DF1B1C2C4C09320004E26C /* carvana.mlmodel */; };
+		E4DF1B1F2C4C09370004E26C /* carNames.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DF1B1E2C4C09370004E26C /* carNames.json */; };
+		E4DF1B212C4C09980004E26C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF1B202C4C09980004E26C /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		E4DF1B102C4C07F20004E26C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4DF1B122C4C07FB0004E26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4DF1B152C4C07FB0004E26C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4DF1B1C2C4C09320004E26C /* carvana.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = carvana.mlmodel; sourceTree = "<group>"; };
+		E4DF1B1E2C4C09370004E26C /* carNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carNames.json; sourceTree = "<group>"; };
+		E4DF1B202C4C09980004E26C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		E4DF1B0D2C4C07F20004E26C /* CarPricePrediction */ = {
 			isa = PBXGroup;
 			children = (
+				E4DF1B1E2C4C09370004E26C /* carNames.json */,
+				E4DF1B1C2C4C09320004E26C /* carvana.mlmodel */,
 				E4DF1B0E2C4C07F20004E26C /* CarPricePredictionApp.swift */,
 				E4DF1B102C4C07F20004E26C /* ContentView.swift */,
+				E4DF1B202C4C09980004E26C /* Car.swift */,
 				E4DF1B122C4C07FB0004E26C /* Assets.xcassets */,
 				E4DF1B142C4C07FB0004E26C /* Preview Content */,
 			);
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4DF1B162C4C07FB0004E26C /* Preview Assets.xcassets in Resources */,
+				E4DF1B1F2C4C09370004E26C /* carNames.json in Resources */,
 				E4DF1B132C4C07FB0004E26C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DF1B1D2C4C09330004E26C /* carvana.mlmodel in Sources */,
 				E4DF1B112C4C07F20004E26C /* ContentView.swift in Sources */,
+				E4DF1B212C4C09980004E26C /* Car.swift in Sources */,
 				E4DF1B0F2C4C07F20004E26C /* CarPricePredictionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
